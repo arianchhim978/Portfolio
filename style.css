@@ -153,10 +153,10 @@ button{
     margin-left:30px;
 }
 .line{
-width:100%;
+display:none;
 }
 #line{
-    width: 100%;
+    display:none;
 }
 .text1{
     font-size: 15px;
