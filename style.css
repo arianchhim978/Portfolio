@@ -104,16 +104,38 @@ button{
 @media (max-width:700px){
     .list{
         font-size:20px;
+        margin-right:20px;
     }
     #pic{
-        height:80px;
+        height:100px;
         margin:0px;
+        margin-left:30px;
+        margin-top:12px;
     }
 .grey{
     height:200px;
-    width:150px;
+    width:250px;
+    
 
 }
-.container{
-    margin-right:200px;
-}}
+.text{
+    height:100px;
+    width:200px;
+    font-size:15px;
+}
+.text1{
+    font-size: 15px;
+    width:200px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.text3{
+    font-size:15px;
+    text-align: center;
+}
+.cen{
+    margin-left:90px;
+    margin-right:auto;
+    gap:15px;
+}
+}
