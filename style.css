@@ -16,6 +16,15 @@ header{
    
 
 }
+button{
+    height:50px;
+    width:130px;
+    border-radius: 8px;
+    border:none;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 a{
     text-decoration: none;
     color:white;
@@ -54,11 +63,14 @@ a{
 }
 #line,.line{
     height:2px;
-    width:1000px;
+    width:100%;
     border:solid 1px grey;
     background-color: grey;
     margin-left:auto;
     margin-right:auto;
+}
+.height{
+    height:50px;
 }
 .cen{
     display:flex;
@@ -91,14 +103,20 @@ a{
     text-align: center;
     font-size: 30px;
 }
-form{
+#form {
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+}
+
+form {
     display: flex;
     flex-direction: column;
-    margin-left:auto;
-    margin-right:auto;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center horizontally */
 }
 button{
     margin-top:20px;
+    width:100%;
     
 }
 @media (max-width:700px){
@@ -135,7 +153,7 @@ button{
     margin-left:30px;
 }
 #line,.line{
-width:300px;
+width:100%;
 }
 .text1{
     font-size: 15px;
