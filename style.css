@@ -138,4 +138,19 @@ button{
     margin-right:auto;
     gap:15px;
 }
+
+.picture{
+  height:200px;
+  margin-right:200px;
+}
+.pic1{
+    margin-left:0px;
+}
+button{
+    height:50px;
+    width:130px;
+    border-radius: 8px;
+    border:none;
+    margin:0px;
+}
 }
