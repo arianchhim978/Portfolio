@@ -134,6 +134,9 @@ button{
     font-size:15px;
     margin-left:30px;
 }
+#line,.line{
+width:300px;
+}
 .text1{
     font-size: 15px;
     width:200px;
@@ -145,7 +148,7 @@ button{
     text-align: center;
 }
 .cen{
-    margin-left:90px;
+    margin-left:60px;
     margin-right:auto;
     gap:15px;
 }
