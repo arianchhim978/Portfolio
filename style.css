@@ -82,3 +82,22 @@ a{
     gap:20px;
     margin-left:500px;
 }
+.form{
+    text-align: center;
+    display: flex;
+    
+}
+.contact{
+    text-align: center;
+    font-size: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+}
+button{
+    margin-top:20px;
+    
+}
