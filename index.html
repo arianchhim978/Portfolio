@@ -62,18 +62,17 @@
         <div class="line"></div>
         <h1 class="contact" >Contact Me</h1>
         <div id="form" class="form">
-            <form name="contact" method="POST" data-netlify="true" 
-            
-            
-            
-            >
-                <label for="name">Name</label>
-                <input name="name" required placeholder="Name" id='name'type="text">
-                <label for="email">Email</label>
-                <input name='email'placeholder="Email" id="email" type="email" required>
-                <label for="text">Text here</label>
-                <input name="text" type="text" id="text" placeholder="Text Here">
-                <button type="submit">Submit</button>
+            <form name="contact" netlify>
+                <p>
+                  <label>Name <input type="text" name="name" /></label>
+                </p>
+                <p>
+                  <label>Email <input type="email" name="email" /></label>
+                </p>
+                <p>
+                  <button type="submit">Send</button>
+                </p>
+              </form>
             </form>
         </div>
     </section>
