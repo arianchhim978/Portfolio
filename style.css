@@ -101,3 +101,19 @@ button{
     margin-top:20px;
     
 }
+@media (max-width:700px){
+    .list{
+        font-size:20px;
+    }
+    #pic{
+        height:80px;
+        margin:0px;
+    }
+.grey{
+    height:200px;
+    width:150px;
+
+}
+.container{
+    margin-right:200px;
+}}
