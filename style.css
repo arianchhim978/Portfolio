@@ -1,191 +1,26 @@
-body{
-    font-family: "Montserrat", sans-serif;
-    background-color: black;
-    color:white;
-    margin:0;
+ul{
+    list-style: none;
+    display:flex;
+    gap:20px;
+
 }
 header{
     display:flex;
+    align-items: center;
     justify-content: space-between;
 }
-#pic{
-    margin-top:2.5em;
-    height:12.5em;
-    
-    
-   
-
+#one{
+display: grid;
+grid-template-areas:" h h h h"
+"middle a b c";
 }
-button{
-    height:50px;
-    width:130px;
-    border-radius: 8px;
-    border:none;
-    margin-left:auto;
-    margin-right:auto;
+.temp{
+  grid-area:middle;
 }
-
-a{
-    text-decoration: none;
-    color:white;
-}
-.grey{
-    background-color: #242424;
-    height:300px;
-    width:240px;
-    margin-right:200px;
-    
-}
-.container{
-    margin-top:10px;
-    margin-left:140px;
-    align-items: center;
-}
-.list{
-    margin-left:50px;
-}
-.text{
-    height:200px;
-    width: 600px;
-    font-size: 30px;
-    margin-left:auto;
-    margin-right: auto;
-}
-.text1{
-    height:200px;
-    width: 400px;
-    font-size: 15px;
-    margin-right: 865px;
-    margin-left: auto;
-}
-.button{
-   border-bottom:2px solid rgb(5, 255, 5);
-}
-#line,.line{
-    height:2px;
-    width:100%;
-    border:solid 1px grey;
-    background-color: grey;
-    margin-left:auto;
-    margin-right:auto;
-}
-.height{
-    height:50px;
-}
-.cen{
-    display:flex;
-    gap:200px;
-    margin-left:450px;
-}
-.cent{
-    font-size:40px;
-    text-align: center;
-}
-.line{
-    margin-top:100px;
-}
-.picture{
-    height:200px;
-    width:400px
-}
-.pic1{
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    margin-left:500px;
-}
-.form{
-    text-align: center;
-    display: flex;
-    
-}
-.contact{
-    text-align: center;
-    font-size: 30px;
-}
-#form {
-    text-align: center;
-    margin: 0 auto; /* Center horizontally */
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center horizontally */
-}
-button{
-    margin-top:20px;
-    width:100%;
-    
-}
-@media (max-width:700px){
-    .list{
-        font-size:20px;
-        margin-right:20px;
-    }
-    #pic{
-        height:100px;
-        margin:0px;
-        margin-left:30px;
-        margin-top:12px;
-    }
-.grey{
-    height:200px;
-    width:0px;
-    
-    
-
-}.container2{
-    margin-top:150px;
-    margin-left:40px;
-    
-}
-.container{
-    display: flex;
-    margin-right:px;
-    margin-left:110px;
-}
-.text{
-    height:100px;
-    width:200px;
-    font-size:15px;
-    margin-left:30px;
-}
-.line{
-display:none;
-}
-#line{
-    display:none;
-}
-.text1{
-    font-size: 15px;
-    width:200px;
-    margin-right:auto;
-    margin-left:30px;
-}
-.text3{
-    font-size:15px;
-    text-align: center;
-}
-.cen{
-    margin-left:60px;
-    margin-right:auto;
-    gap:15px;
-}
-
-.picture{
-  height:200px;
-  margin-right:200px;
-}
-.pic1{
-    margin-left:0px;
-}
-button{
-    height:50px;
-    width:130px;
-    border-radius: 8px;
-    border:none;
-    margin:0px;
-}
+.img{
+    grid-area:a;
+border-radius: 50%;
+background-color: black;
+width: 100px;
+height:100px;
 }
