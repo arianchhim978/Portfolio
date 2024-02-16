@@ -113,7 +113,30 @@ a {
 .space{
     margin-top:100px;
 }
+.hi{
+    margin-top:50px;
+    border-radius: 8px;
+    
+}
+.style{
+    
+}
+.style2{
+    margin-left:3px;
+    margin-top:20px;
+}
+.style3{
+    margin-top:20px;
+    margin-left:10px;
+    width:140px;
 
+}
+button{
+    height:50px;
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+}
 @media (max-width: 600px) {
     header {
         position: relative; /* Reset position for overlay in smaller screens */
