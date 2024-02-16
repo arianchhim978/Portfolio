@@ -19,7 +19,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative; /* Position relative for overlay */
+    position: relative;
+    margin-top:20px; /* Position relative for overlay */
 }
 
 .bar {
@@ -67,13 +68,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .flex2 {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .flex3 {
@@ -107,6 +109,9 @@ header {
 
 a {
     text-decoration: none;
+}
+.space{
+    margin-top:100px;
 }
 
 @media (max-width: 600px) {
