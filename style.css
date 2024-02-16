@@ -1,26 +1,32 @@
-ul{
-    list-style: none;
-    display:flex;
-    gap:20px;
+body{
+    background-color:rgb(17, 17, 17);
+}
+@media(max-width:600px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    h1{
+        color:#9c9fa4;
+    }
+    header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.bar{
+    height:40px;
+ 
+}
+*{
+    font-family: "Poppins", sans-serif;
+    color:#9c9fa4;
 
 }
-header{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+.circle{
+    border-radius: 50%;
 }
-#one{
-display: grid;
-grid-template-areas:" h h h h"
-"middle a b c";
-}
-.temp{
-  grid-area:middle;
-}
-.img{
-    grid-area:a;
-border-radius: 50%;
-background-color: black;
-width: 100px;
-height:100px;
-}
+.twitter{
+    height:30px;
+}}
+    
