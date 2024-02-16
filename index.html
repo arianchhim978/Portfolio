@@ -13,9 +13,29 @@
 <body>
     <header>
         <h1>Arian Chhim</h1>
-        <img class="bar" src="bars-solid.svg">
-    </header>
-    <i class="fa-brands fa-linkedin"></i>
-   <img class='twitter'src="twitter.svg">
+        <img id="bar" class="bar" src="bars-solid.svg"> <!-- Adding an ID for JavaScript -->
+        <div id="overlay" class="overlay">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </div> <!-- Overlay -->
+    </header> 
+    <section class="flex">
+        <img class='circle'src="pfp.jpeg">
+        <div class="flex2"><i class="fa-brands fa-linkedin"></i>
+            <p><a target="_blank" href="https://www.linkedin.com/in/arian-chhim-4b8916152/">Linked In</a></p></div>
+       
+       <div class="flex3">
+        <img class='twitter'src="twitter.svg">
+        <p class="p"><a target="_blank" href="https://twitter.com/chhim_aria96403">Twitter</a></p>
+       </div>
+       <div class="flex4">
+        <img class="git" src="github.svg">
+        <p><a target="_blank" href="https://github.com/arianchhim978">Github profile</a></p>
+       </div>
+    </section>
+    <script src="javascript.js"></script> <!-- Adding JavaScript file -->
 </body>
 </html>

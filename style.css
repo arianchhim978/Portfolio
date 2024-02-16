@@ -1,32 +1,116 @@
-body{
-    background-color:rgb(17, 17, 17);
+body {
+    background-color: rgb(17, 17, 17);
+    margin: 0;
+    padding: 0;
 }
-@media(max-width:600px){
-    *{
-        margin:0;
-        padding:0;
-    }
-    h1{
-        color:#9c9fa4;
-    }
-    header{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-.bar{
-    height:40px;
- 
-}
-*{
-    font-family: "Poppins", sans-serif;
-    color:#9c9fa4;
 
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #9c9fa4;
 }
-.circle{
+
+h1 {
+    color: #9c9fa4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Position relative for overlay */
+}
+
+.bar {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.overlay {
+    display: none; /* Initially hidden */
+    position: fixed; /* Fixed position to cover the whole screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity and color as needed */
+    z-index: 1; /* Make sure the overlay is on top */
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.menu li {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff; /* Adjust link color */
+    font-size: 20px; /* Adjust font size */
+}
+
+.circle {
     border-radius: 50%;
 }
-.twitter{
-    height:30px;
-}}
-    
+
+.twitter {
+    height: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.flex3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.flex4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.git {
+    height: 30px;
+    margin-left: 20px;
+}
+
+.p {
+    margin-right: 30px;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 150px;
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    header {
+        position: relative; /* Reset position for overlay in smaller screens */
+    }
+}
