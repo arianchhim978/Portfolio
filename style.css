@@ -21,6 +21,7 @@ body {
 .header{
     display:flex;
     align-items: center;
+  
 
 }
 a{
@@ -30,6 +31,7 @@ a{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    width:6em;
     
 
 }
@@ -45,8 +47,15 @@ a{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width:6em;
   
   
+} 
+.flex1{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
 }
 .padding{
 width:400px;
@@ -93,7 +102,7 @@ p{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        position: fixed;
+       
         width: 100%;
         background-color: rgb(17, 17, 17);
         padding-top: 0; /* Adjust padding-top value */
@@ -194,9 +203,7 @@ p{
         border-radius: 8px;
         
     }
-    .style{
-        
-    }
+   
     .style2{
         margin-left:3px;
         margin-top:20px;
