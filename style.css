@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: #9c9fa4;
+    box-sizing:border-box;
 }
 body {
     background-color: rgb(17, 17, 17);
@@ -31,7 +32,7 @@ a{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width:6em;
+  
     
 
 }
@@ -103,7 +104,7 @@ p{
         justify-content: space-between;
         align-items: center;
        
-        width: 100%;
+       
         background-color: rgb(17, 17, 17);
         padding-top: 0; /* Adjust padding-top value */
     }
