@@ -111,3 +111,26 @@ color:white;
     border-radius:8px;
 }
 
+@media only screen and (max-width:600px){
+.text{
+    font-size:10px;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.underlineEffect{
+    font-size:15px;
+}
+
+header{
+    gap:150px;
+}
+.circle{
+    left:140px;
+    top:270px;
+}
+.white{
+    padding-top:150px;
+}
+
+}
