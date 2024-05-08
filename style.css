@@ -71,6 +71,7 @@ header{
     text-decoration: none;
     color:black;
     text-align: center;
+    font-size:20px;
 }
 
 .underlineEffect span:hover{
