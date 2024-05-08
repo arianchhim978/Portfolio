@@ -92,21 +92,21 @@ color:white;
 }
 .box1 {
     border:solid 2px black;
-    width:200px;
+    width:300px;
     border-radius:8px;
     height:150px;
 }  
 
 .box2{
     border:solid 2px black;
-    width: 200px;
+    width: 300px;
     border-radius:8px;
     height:150px;
 
 }
 .box3{
     border:solid 2px black;
-    width: 200px;
+    width: 300px;
     height:150px;
     border-radius:8px;
 }
@@ -132,5 +132,11 @@ header{
 .white{
     padding-top:150px;
 }
+.boxContainer{
+display:flex;
+flex-direction: column;
+margin-left:70px;
+}
+
 
 }
