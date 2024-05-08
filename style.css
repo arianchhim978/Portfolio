@@ -22,7 +22,24 @@ a{
     color:white;
     text-decoration:none;
 }
-
+.box1  {
+    transition: transform 0.3s ease-in-out;
+}
+.box1:hover{
+    transform: scale(1.2);
+}
+.box2{
+    transition: transform 0.3s ease-in-out;
+}
+.box2:hover{
+transform:scale(1.2);
+}
+.box3{
+    transition: transform 0.3s ease-in-out;
+}
+.box3:hover{
+    transform:scale(1.2);
+}
 header{
     padding:10px;
     color:white;
