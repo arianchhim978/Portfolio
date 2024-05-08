@@ -42,8 +42,7 @@ header{
     border:2px solid black;
     margin-left:auto;
   position: absolute;
-  left:700px;
-  bottom:250px;
+  
     
 }
 .circle2{
@@ -79,8 +78,8 @@ color:white;
 .white{
     color:white;
     font-size:30px;
-    margin-left:420px;
-    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
 }
 .boxContainer{
     display:flex;
