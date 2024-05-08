@@ -104,7 +104,8 @@ color:white;
 .boxContainer{
     display:flex;
     gap:20px;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     
 }
 .box1 {
@@ -153,7 +154,6 @@ header{
 .boxContainer{
 display:flex;
 flex-direction: column;
-margin-left:70px;
 }
 
 
