@@ -148,6 +148,7 @@ header{
 }
 .white{
     padding-top:150px;
+    text-align: center;
 }
 .boxContainer{
 display:flex;
