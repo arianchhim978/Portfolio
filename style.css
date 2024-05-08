@@ -70,6 +70,7 @@ header{
 .underlineEffect{
     text-decoration: none;
     color:black;
+    text-align: center;
 }
 
 .underlineEffect span:hover{
